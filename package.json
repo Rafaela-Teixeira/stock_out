@@ -1,15 +1,25 @@
 {
   "name": "stock_out",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/Rafaela-Teixeira/stock_out.git",
-  "author": "Rafaela-Teixeira <rf.teixeira@outlook.com.br>",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
-  },
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafaela-Teixeira/stock_out.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafaela-Teixeira/stock_out/issues"
+  },
+  "homepage": "https://github.com/Rafaela-Teixeira/stock_out#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
